@@ -11,7 +11,7 @@
       document.querySelector('input')
       .addEventListener('input', e => {
          //document.querySelector('h5').textContent = e.target.value;
-         fetch('https://enigmatic-temple-26169.herokuapp.com/rates.php')
+         fetch('/rates.php?dollars='+e.target.value)
          .then(x => x.text())
          .then(x => document.querySelector('h5').textContent = x)
          .catch(() => document.querySelector('h5').textContent = 'ERR');
