@@ -2,6 +2,9 @@
 <html>
  <head>
   <title>Обменный пункт</title><meta charset="utf-8">
+  <style>
+   * {zoom: 146%}
+  </style>
  </head>
  <body>
     <h2>Введите доллары и получите рубли</h2>
